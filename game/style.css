@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(75, 0, 130); /* Indigo */
+    color: whitesmoke;
+}
+
+.header {
+    padding: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.result-message {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.my-button {
+    /* Regular button styles */
+    padding: 10px 20px;
+    background-color: rgb(128, 0, 128); /* Purple */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+  
+.my-button:hover {
+    /* Styles for when the button is hovered */
+    background-color: rgb(147, 112, 219); /* Medium Purple */
+    transform: translateY(-5px); /* Move the button up by 5 pixels */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
